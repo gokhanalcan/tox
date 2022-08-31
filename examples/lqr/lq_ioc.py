@@ -1,5 +1,6 @@
 from jax.config import config
 config.update("jax_enable_x64", True)
+config.update('jax_platform_name', 'cpu')  # for CPU-only computations
 
 from jax import jacobian as jac
 import jax.numpy as jnp
