@@ -5,7 +5,7 @@ A toolbox for trajectory optimization and model-predictive control based on [JAX
 ## Installation (Conda)
 
 ```bash
-git clone git@github.com:gokhanalcan/tox.git
+git clone -b ga-tox git@github.com:gokhanalcan/tox.git
 cd tox
 conda env create --file env_tox.yml
 conda activate tox
